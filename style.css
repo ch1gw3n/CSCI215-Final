@@ -1,8 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: rgb(25, 25, 25);
 }
 
 canvas {
   display: block;
+}
+
+a {
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
 }

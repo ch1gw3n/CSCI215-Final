@@ -26,11 +26,11 @@ function makeHouses() {
 	houses.strokeWeight(2);
 	const houseCount = 10;
 	const houseWidth = width / houseCount;
-	const houseWindowWidth = width/random(20, 40);
+	const houseWindowWidth = width/random(25, 40);
 	const houseWindowHeight = width/random(25, 60);
 	for (let i = 0; i < houseCount; i++) {
 		const houseHeight = random(50, 300);
-		houses.fill(135, 135, 135, random(50, 255));
+		houses.fill(135);
 		houses.rect(houseWidth * i, height - houseHeight, houseWidth, houseHeight * 2);
 
 		for (let windowY = height - houseHeight + 10; windowY < height - houseWindowHeight - 5; windowY += houseWindowHeight + 5) {

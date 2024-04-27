@@ -7,9 +7,10 @@ let houses;
 function setup() {
   pixelDensity(1);
 	createCanvas(windowWidth, windowHeight-40);
+	// windowHeight - 40 is just for my display since it extends past my screen
 	endColor = color(25);
 	makeHouses();
-  makeMoon();
+    makeMoon();
 }
 
 function makeMoon() {
@@ -148,3 +149,4 @@ class Firework extends Particle {
 		}
 	}
 }
+

@@ -27,7 +27,7 @@ function makeHouses() {
 	const houseCount = 10;
 	const houseWidth = width / houseCount;
 	const houseWindowWidth = width/random(25, 40);
-	const houseWindowHeight = width/random(25, 60);
+	const houseWindowHeight = height/random(25, 60);
 	for (let i = 0; i < houseCount; i++) {
 		const houseHeight = random(50, 300);
 		houses.fill(135);

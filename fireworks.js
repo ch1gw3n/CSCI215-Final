@@ -50,7 +50,7 @@ function mousePressed() {
 
 function draw() {
 	background(25);
-  image(moon, 150, 50);
+    image(moon, 150, 50);
 	particles.forEach((p) => {
 		p.step();
 		p.draw();
